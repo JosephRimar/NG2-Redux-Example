@@ -7,14 +7,6 @@
     "serve": "gulp serve",
     "test": "COVERAGE_ENABLED=true gulp test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blacksonic/angular2-esnext-starter.git"
-  },
-  "author": {
-    "name": "blacksonic",
-    "email": "soos.gabor86@gmail.com"
-  },
   "license": "ISC",
   "keywords": [
     "angular2",
@@ -63,7 +55,6 @@
     "del": "2.2.2",
     "es6-promise": "3.2.1",
     "es6-shim": "0.35.1",
-    "fees-common-store": "file:///C:\\Users\\jrimar\\Documents\\Angular_2\\Angular_2_Learning\\Fees-Common-Store",
     "gulp": "3.9.1",
     "gulp-cssnano": "2.1.2",
     "gulp-delete-lines": "0.0.7",

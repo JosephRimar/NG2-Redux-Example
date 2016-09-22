@@ -1,0 +1,7 @@
+<div>
+	<div>
+		<h2>Cart State</h2>
+		<pre>{{state}}</pre>
+	</div>
+	<cart (removeItemFromCart)='onRemoveClick($event)' [items]=cartItems.cartItems [total]=total></cart>
+</div>

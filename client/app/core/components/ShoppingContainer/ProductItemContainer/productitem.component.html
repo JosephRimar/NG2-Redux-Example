@@ -1,0 +1,9 @@
+<div class=list-group-item>
+	<product [title]=item.title [price]=item.price></product>
+	<button style="margin-top: -40px"  
+		class='btn {{item.inventory ? "btn-primary" : ""}} pull-right' 
+		[disabled]='!item.inventory'
+		(click)=addToCart(item)>
+		{{item.inventory ? 'Add to Cart' : 'Out of Stock'}}
+	</button>
+</div>

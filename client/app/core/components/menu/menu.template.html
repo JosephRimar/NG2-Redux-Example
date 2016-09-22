@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="navbar-default">
+        <a class="navbar-brand" [routerLink]="['fpng']">HOME</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        	<li *ngFor='let link of Navlinks'><a [routerLink]="[link.url]">{{link.name}}</a></li>
+        </ul>
+    </div>
+</div>
